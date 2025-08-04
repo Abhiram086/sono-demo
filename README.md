@@ -35,14 +35,34 @@
 
 ---
 
-## 📂 What's Inside
+## 📂 What's Inside – Original Project Structure
 
 ```bash
-sono-demo/
-├── screenshots/
-│   ├── home_page.png
-│   └── playlist_bar.png
-├── README.md
+Sono/
+├── lib/
+│   ├── main.dart
+│   ├── firebase_options.dart
+│   ├── models/
+│   │   ├── menu_button.dart
+│   │   ├── playlist_provider.dart
+│   │   ├── song.dart
+│   │   └── song_service.dart
+│   └── pages/
+│       ├── home_page.dart
+│       ├── neumorphic_bots.dart
+│       ├── neumorphic2.dart
+│       └── splash_screen.dart
+│
+├── music-uploader/
+│   ├── upload_metadata.py         # 🔁 Uploads GitHub MP3 metadata to Firestore
+│   ├── serviceAccountKey.json     # 🔐 Firebase Admin SDK credentials
+│   ├── google-services.json       # 🔗 Android Firebase config
+│   ├── venv/                      # 🐍 Virtual environment (optional)
+│   └── temp/                      # 📂 Temporary directory for downloaded MP3s
+│
+├── .gitignore
+├── pubspec.yaml
+└── README.md
 
 🛠 About the Full App
 
@@ -56,23 +76,22 @@ The full version of Sono is a complete Flutter music player that:
 
     Automatically uploads metadata via Python
 
-To request access to the private full project or to learn more, please contact the author below.
+To request access to the private full project or to learn more, please contact the author.
 📄 Metadata Uploader (Preview)
 
 The backend for this project includes a Python script that:
 
     Extracts metadata from .mp3 files
 
-    Automatically uploads data to Firestore
+    Automatically uploads song info to Firestore
 
-    Supports GitHub-hosted MP3s
+    Supports GitHub-hosted MP3s for cloud streaming
 
-📎 View Python script:
+📎 View Python Script on GitHub:
 upload_metadata.py → GitHub
 👨‍💻 Author
 
 Abhiram S
 GitHub: @Abhiram086
 
-    📢 This is a demo repository for display purposes only.
-    The full app and source code are kept private for development and deployment.
+    📢 This is a demo repository for display purposes only. The full app and source code are kept private for development and deployment.
