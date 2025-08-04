@@ -8,13 +8,13 @@
 
 ## ✨ Key Features
 
-- 🎶 **Online MP3 Streaming** from cloud storage
-- 🌟 **Neumorphic UI** with smooth gradients and depth
-- 💫 **Rotating Album Art** and glowing effects
-- 📀 **Metadata Extraction** using Python automation
-- 🔁 Loop, play, and pause controls with emoji reactions
-- ☁️ Firebase Firestore + Storage integration
-- 🧠 State management using Provider
+- 🎶 **Online MP3 Streaming** from cloud storage  
+- 🌟 **Neumorphic UI** with smooth gradients and depth  
+- 💫 **Rotating Album Art** and glowing effects  
+- 📀 **Metadata Extraction** using Python automation  
+- 🔁 Loop, play, and pause controls with emoji reactions  
+- ☁️ Firebase Firestore + Storage integration  
+- 🧠 State management using Provider  
 
 ---
 
@@ -63,9 +63,8 @@ Sono/
 ├── .gitignore
 ├── pubspec.yaml
 └── README.md
------
 
-# 🛠 About the Full App
+🛠 About the Full App
 
 The full version of Sono is a complete Flutter music player that:
 
@@ -88,11 +87,8 @@ The backend for this project includes a Python script that:
 
     Supports GitHub-hosted MP3s for cloud streaming
 
-📎 View Python Script on GitHub:
-upload_metadata.py → GitHub
+📎 View Python Script on GitHub
 👨‍💻 Author
 
 Abhiram S
 GitHub: @Abhiram086
-
-    📢 This is a demo repository for display purposes only. The full app and source code are kept private for development and deployment.
