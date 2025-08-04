@@ -65,32 +65,42 @@ Sono/
 └── README.md
 
 ```
-#🛠 About the Full App
+
+
+## 🛠 About the Full App
 
 The full version of Sono is a complete Flutter music player that:
 
-    Uses Firebase Firestore to store metadata
-
-    Streams music hosted on GitHub or Firebase Storage
-
-    Features a fully customized neumorphic UI
-
-    Automatically uploads metadata via Python
+* Uses Firebase Firestore to store metadata
+* Streams music hosted on GitHub or Firebase Storage
+* Features a fully customized neumorphic UI
+* Automatically uploads metadata via Python
 
 To request access to the private full project or to learn more, please contact the author.
-📄 Metadata Uploader (Preview)
+
+---
+
+## 📄 Metadata Uploader (Preview)
 
 The backend for this project includes a Python script that:
 
-    Extracts metadata from .mp3 files
+* Extracts metadata from `.mp3` files
+* Automatically uploads song info to Firestore
+* Supports GitHub-hosted MP3s for cloud streaming
 
-    Automatically uploads song info to Firestore
+📎 **View Python Script on GitHub**
+[`upload_metadata.py`](https://github.com/Abhiram086/sono/blob/main/music-uploader/upload_metadata.py)
 
-    Supports GitHub-hosted MP3s for cloud streaming
+---
 
-📎 View Python Script on GitHub
-upload_metadata.py
-👨‍💻 Author
+## 👨‍💻 Author
 
-Abhiram S
-GitHub: @Abhiram086
+**Abhiram S**
+GitHub: [@Abhiram086](https://github.com/Abhiram086)
+
+
+````````
+
+---
+
+````````
