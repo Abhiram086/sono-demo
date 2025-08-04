@@ -64,7 +64,8 @@ Sono/
 ├── pubspec.yaml
 └── README.md
 
-🛠 About the Full App
+```
+#🛠 About the Full App
 
 The full version of Sono is a complete Flutter music player that:
 
@@ -88,6 +89,7 @@ The backend for this project includes a Python script that:
     Supports GitHub-hosted MP3s for cloud streaming
 
 📎 View Python Script on GitHub
+upload_metadata.py
 👨‍💻 Author
 
 Abhiram S
