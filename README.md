@@ -63,6 +63,7 @@ Sono/
 ├── .gitignore
 ├── pubspec.yaml
 └── README.md
+-----
 
 🛠 About the Full App
 
