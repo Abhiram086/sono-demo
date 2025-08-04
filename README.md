@@ -65,7 +65,7 @@ Sono/
 └── README.md
 -----
 
-🛠 About the Full App
+# 🛠 About the Full App
 
 The full version of Sono is a complete Flutter music player that:
 
