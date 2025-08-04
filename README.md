@@ -99,8 +99,3 @@ The backend for this project includes a Python script that:
 GitHub: [@Abhiram086](https://github.com/Abhiram086)
 
 
-````````
-
----
-
-````````
